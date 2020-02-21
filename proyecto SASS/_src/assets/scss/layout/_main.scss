@@ -1,3 +1,27 @@
 .page__main{
     background-color: $lightThemeColor;
+    width: 100vw;
+}
+
+.main__container{
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    .main-title{
+        margin-bottom: 15px;
+    }
+    .main-text{
+        margin-bottom: 30px;
+    }
+    .main-go-button{
+        border: 2px solid $buttonColor;
+        border-radius: 22.5px;
+        padding-left: 26px;
+        padding-right: 25px;
+        text-align: center;
+    }
 }

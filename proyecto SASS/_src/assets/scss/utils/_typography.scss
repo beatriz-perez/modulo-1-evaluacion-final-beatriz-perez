@@ -1,6 +1,10 @@
 .uppercase {
     text-transform: uppercase;
-  }
+}
+.capitalize{
+    text-transform: capitalize;
+}
+
 
 .headerTitle{
     font-family: $fontBig;
@@ -13,5 +17,37 @@
     font-family: $fontBase;
     color: $fontColorLight;
     font-size: 16px;
+    line-height: 21px;
     text-align: center;
+}
+
+.titleLabel{
+    font-family: $fontBase;
+    color: $themeColorText;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.mainTitle{
+    font-family: $fontBig;
+    color: $fontColorBase;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: left;
+}
+.mainText{
+    font-family: $fontBase;
+    color: $fontColorSecondary;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.mainButtonText{
+    font-family: $fontBase; // CAMBIAR POR MEDIUM - CARGAR DE GOOGLE-FONTS
+    color: $buttonColor;
+    font-size: 20px;
+    line-height: 45px;
+    text-align: left;
 }

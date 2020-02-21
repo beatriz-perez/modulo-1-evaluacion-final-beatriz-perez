@@ -1,19 +1,23 @@
 // COLORS
 
+$lightThemeColor: #ffffff;
+$themeColor: #eff9ff;
+$darkThemeColor: #304268;
+
 $buttonColor: #f26002;
 $menuColor: #0271bc;
 
-$lightThemeColor: #ffffff;
-$themeColor: #8ccbea;
-$darkThemeColor: #304268;
+
+// FONT COLORS
+
+$fontColorBase: #000000;
+$fontColorSecondary: #4a4a4a;
+$themeColorText: #8ccbea;
+$fontColorLight: $lightThemeColor;
+
 
 // FONTS
 
 $fontBase: 'Roboto';
 $fontBig: 'Roboto Slab';
 
-// Font-colors
-
-$fontColorBase: #000000;
-$fontColorSecondary: #4a4a4a;
-$fontColorLight: $lightThemeColor;
