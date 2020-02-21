@@ -1,0 +1,26 @@
+.page__header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/cover.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    .header__title{
+        margin-bottom: 10px;
+    }
+    .header__text{
+        margin-bottom: 45px;
+    }
+    .header__link{
+        height: 45px;
+        width: 45px;
+        margin-bottom: 53px;
+        background-color: $lightThemeColor;
+        border-radius: 50%;
+    }
+}
+
+
