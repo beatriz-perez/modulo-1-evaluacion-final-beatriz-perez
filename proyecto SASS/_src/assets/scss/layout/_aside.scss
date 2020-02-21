@@ -1,3 +1,39 @@
 .page__aside{
     background-color: $themeColor;
+    width: 100vw;
+}
+
+.aside__container{
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    display: grid;
+    grid-template-columns: 1fr 184px 1fr;
+    grid-template-rows: 30px 1fr 1fr 1fr 45px;
+    grid-gap: 45px 0;
+    .main-title{
+        grid-column: 1/4;
+        grid-row: 1/2;
+        width: 100%;
+        text-align: center;
+    }
+    .aside-article{
+        grid-column: 2/3;
+        grid-row: span 1;
+        width: 100%;
+    }
+    .aside-button{
+        grid-column: 1/4;
+        grid-row: 5/6;
+        display: inline-block;
+        border-radius: 22.5px;
+        text-align: center;
+        padding-left: 30.5px;
+        padding-right: 29.5px;
+        height: 45px;
+        width: 184px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: $buttonColor;
+    }
 }
