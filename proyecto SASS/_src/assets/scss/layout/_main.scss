@@ -11,18 +11,13 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    .main-title{
+    .main__textLabel{
+        margin-bottom: 1px;
+    }
+    .main__title{
         margin-bottom: 15px;
     }
-    .main-text{
+    .main__text{
         margin-bottom: 30px;
-    }
-    .main-go-button{
-        display: inline-block;
-        border: 2px solid $colorButton;
-        border-radius: 22.5px;
-        padding-left: 26px;
-        padding-right: 25px;
-        text-align: center;
     }
 }

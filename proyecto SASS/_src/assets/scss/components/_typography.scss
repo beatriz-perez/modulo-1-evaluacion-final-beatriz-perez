@@ -1,62 +1,95 @@
-.uppercase {
-    text-transform: uppercase;
-}
-.capitalize{
-    text-transform: capitalize;
-}
-
-
-.headerTitle{
+// SECTION TITLE STYLES
+.text__header--title{
     font-family: $fontBig;
     color: $fontColorLight;
     font-size: 42px;
     line-height: 55px;
     text-align: center;
+    text-transform: uppercase;
 }
-.headerText{
+.text__main--title{
+    font-family: $fontBig;
+    color: $fontColorBase;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: left;
+    text-transform: capitalize;
+}
+.text__aside--title{
+    font-family: $fontBig;
+    color: $fontColorBase;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+// ARTICLE TITLE & LABEL STYLES
+.text__main--textLabel{
+    font-family: $fontBase;
+    color: $fontColorTheme;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: left;
+    text-transform: capitalize;
+}
+.text__asideArticle__title{
+    font-family: $fontBig;
+    color: $fontColorBase;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+}
+
+// TEXT STYLES
+.text__header--text{
     font-family: $fontBase;
     color: $fontColorLight;
     font-size: 16px;
     line-height: 21px;
     text-align: center;
 }
-
-.titleLabel{
-    font-family: $fontBase;
-    color: $fontColorTheme;
-    font-size: 14px;
-    line-height: 30px;
-    text-align: left;
-}
-
-.mainTitle{
-    font-family: $fontBig;
-    color: $fontColorBase;
-    font-size: 24px;
-    line-height: 30px;
-    text-align: left;
-}
-.mainText{
+.text__main--text{
     font-family: $fontBase;
     color: $fontColorSecondary;
     font-size: 18px;
     line-height: 30px;
     text-align: left;
 }
-
-.articleTitle{
-    font-family: $fontBig;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 30px;
-    text-align: center;
-    color: $fontColorBase;
-}
-.articleText{
+.text__aside--text{
     font-family: $fontBase;
+    color: $fontColorBase;
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
     text-align: center;
-    color: $fontColorBase;
+}
+.text__footer--text{
+    font-family: $fontBase;
+    color: $fontColorLight;
+    font-weight: 400;
+    font-size: 14;
+    line-height: 30px;
+    text-align: center;
+}
+
+// MENU ITEMS STYLES
+.text__footer--menuItem{
+    font-family: $fontBase;
+    color: $fontColorLight;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+// BUTTON TEXT STYLES
+.text__button{
+    font-family: $fontButton;
+    font-size: 20px;
+    line-height: 45px;
+    text-align: center;
+    text-transform: capitalize;
 }

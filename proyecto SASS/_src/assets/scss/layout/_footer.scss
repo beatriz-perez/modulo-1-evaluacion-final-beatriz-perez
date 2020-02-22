@@ -4,12 +4,30 @@
 }
 
 .container__section--footer{
+    position: relative;
     width: 100%;
     padding-top: 60px;
-    padding-bottom: 65px;
+    padding-bottom: 45px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    .footer__button{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .footer__menu{
+        width: 100%;
+        margin-bottom: 30px;
+        &List{
+            text-align: center;
+        }
+    }
+    .footer__text{
+        &--heart{
+            color: $fontColorIcon;
+        }
+    }
 }

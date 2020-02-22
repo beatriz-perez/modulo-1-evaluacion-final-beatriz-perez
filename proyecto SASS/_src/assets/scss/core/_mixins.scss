@@ -1,5 +1,9 @@
+// HORIZONTAL CENTERING
+@mixin centerHorizontal {
+    margin-left: auto;
+    margin-right: auto;
+}
 // ABSOLUTE CENTERING
-
 @mixin centerAll() {
     position: absolute;
     left: 50%;
