@@ -1,9 +1,10 @@
 @import './core/reset';
+@import './core/variables';
+@import './core/mixins';
 
-@import './utils/variables';
-@import './utils/mixins';
+@import './components/typography';
+@import './components/buttons';
 
-@import './utils/typography';
 
 @import './layout/structure';
 @import './layout/header';

@@ -1,9 +1,9 @@
-.page__main{
-    background-color: $lightThemeColor;
+.container__page--main{
     width: 100vw;
+    background-color: $colorThemeLight;
 }
 
-.main__container{
+.container__section--main{
     width: 100%;
     padding-top: 30px;
     padding-bottom: 45px;
@@ -19,7 +19,7 @@
     }
     .main-go-button{
         display: inline-block;
-        border: 2px solid $buttonColor;
+        border: 2px solid $colorButton;
         border-radius: 22.5px;
         padding-left: 26px;
         padding-right: 25px;

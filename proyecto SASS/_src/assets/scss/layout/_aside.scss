@@ -1,9 +1,9 @@
-.page__aside{
-    background-color: $themeColor;
+.container__page--aside{
     width: 100vw;
+    background-color: $themeColor;
 }
 
-.aside__container{
+.container__section--aside{
     width: 100%;
     padding-top: 30px;
     padding-bottom: 60px;
@@ -34,6 +34,6 @@
         width: 184px;
         margin-left: auto;
         margin-right: auto;
-        background-color: $buttonColor;
+        background-color: $colorButton;
     }
 }

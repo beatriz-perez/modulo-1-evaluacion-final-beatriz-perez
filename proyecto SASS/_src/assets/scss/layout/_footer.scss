@@ -1,3 +1,15 @@
-.page__footer{
+.container__page--footer{
+    width: 100vw;
     background-color: $darkThemeColor;
+}
+
+.container__section--footer{
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 }

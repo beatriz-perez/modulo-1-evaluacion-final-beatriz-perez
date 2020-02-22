@@ -23,7 +23,7 @@
 
 .titleLabel{
     font-family: $fontBase;
-    color: $themeColorText;
+    color: $fontColorTheme;
     font-size: 14px;
     line-height: 30px;
     text-align: left;
@@ -44,32 +44,19 @@
     text-align: left;
 }
 
-.mainButtonText{
-    font-family: $fontBase; // CAMBIAR POR MEDIUM - CARGAR DE GOOGLE-FONTS
-    color: $buttonColor;
-    font-size: 20px;
-    line-height: 45px;
-    text-align: center;
-}
-
 .articleTitle{
     font-family: $fontBig;
-    color: $fontColorBase;
+    font-weight: 700;
     font-size: 18px;
     line-height: 30px;
     text-align: center;
+    color: $fontColorBase;
 }
 .articleText{
     font-family: $fontBase;
-    color: $fontColorBase;
+    font-weight: 400;
     font-size: 18px;
     line-height: 30px;
     text-align: center;
-}
-.asideButtonText{
-    font-family: $fontBase; // CAMBIAR POR MEDIUM - CARGAR DE GOOGLE-FONTS
-    color: $fontColorLight;
-    font-size: 20px;
-    line-height: 45px;
-    text-align: center;
+    color: $fontColorBase;
 }

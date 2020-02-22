@@ -1,10 +1,10 @@
 // COLORS
 
-$lightThemeColor: #ffffff;
+$colorThemeLight: #ffffff;
 $themeColor: #eff9ff;
 $darkThemeColor: #304268;
 
-$buttonColor: #f26002;
+$colorButton: #f26002;
 $menuColor: #0271bc;
 
 
@@ -12,12 +12,12 @@ $menuColor: #0271bc;
 
 $fontColorBase: #000000;
 $fontColorSecondary: #4a4a4a;
-$themeColorText: #8ccbea;
-$fontColorLight: $lightThemeColor;
+$fontColorTheme: #8ccbea;
+$fontColorLight: $colorThemeLight;
 
 
 // FONTS
 
 $fontBase: 'Roboto';
 $fontBig: 'Roboto Slab';
-
+$fontButton: 'Roboto';
