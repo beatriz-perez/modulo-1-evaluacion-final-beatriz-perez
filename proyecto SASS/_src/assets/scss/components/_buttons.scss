@@ -34,6 +34,12 @@
     border: 2px solid $colorButton;
     border-radius: 22.5px;
     color: $colorButton;
+    transition: box-shadow ease 1s, border ease 1s, color ease 1s;
+    &:hover{
+        box-shadow: 3px 3px 3px $colorShadow;
+        border: 2px solid $darkThemeColor;
+        color: $darkThemeColor;
+    }
     @include mediaSize(tablet){
         width: 91px;
     }
@@ -47,6 +53,11 @@
     background-color: $colorButton;
     border-radius: 22.5px;
     color: $fontColorLight;
+    transition: box-shadow ease 1s, background-color ease 1s;
+    &:hover{
+        box-shadow: 3px 3px 3px $colorShadow;
+        background-color: $darkThemeColor;
+    }
     @include mediaSize(tablet){
         width: 210px;
     }
