@@ -34,6 +34,12 @@
     border: 2px solid $colorButton;
     border-radius: 22.5px;
     color: $colorButton;
+    @include mediaSize(tablet){
+        width: 91px;
+    }
+    @include mediaSize(desktop){
+        width: 160px;
+    }
 }
 .button__long--background{
     width: 184px;
@@ -41,4 +47,10 @@
     background-color: $colorButton;
     border-radius: 22.5px;
     color: $fontColorLight;
+    @include mediaSize(tablet){
+        width: 210px;
+    }
+    @include mediaSize(desktop){
+        width: 255px;
+    }
 }

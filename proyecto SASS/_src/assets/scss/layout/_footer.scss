@@ -6,12 +6,23 @@
 .container__section--footer{
     position: relative;
     width: 100%;
+    max-width: 730px;
+    @include centerHorizontal;
     padding-top: 60px;
     padding-bottom: 45px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    @include mediaSize(tablet){
+        padding-top: 45px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    @include mediaSize(desktop){
+        justify-content: center;
+    }
     .footer__button{
         position: absolute;
         top: 0;
@@ -21,13 +32,26 @@
     .footer__menu{
         width: 100%;
         margin-bottom: 30px;
-        &List{
-            text-align: center;
+        @include mediaSize(tablet){
+            width: 210px;
+            margin-bottom: 0;
+            margin-left: 30px;
+            order: 2;
+        }
+        @include mediaSize(desktop){
+            width: 160px;
         }
     }
     .footer__text{
         &--heart{
             color: $fontColorIcon;
+        }
+        @include mediaSize(tablet){
+            width: 210px;
+            order: 1;
+        }
+        @include mediaSize(desktop){
+            width: 160px;
         }
     }
 }

@@ -8,12 +8,20 @@
 
 .container__section--header{
     width: 100%;
+    max-width: 730px;
+    @include centerHorizontal;
     height: 100%;
     padding-bottom: 53px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+    @include mediaSize(tablet){
+        padding-bottom: 45px;
+    }
+    @include mediaSize(desktop){
+        padding-bottom: 13px;
+    }
     .navigation{
         .menuIcon{
             @include centerAll
@@ -21,9 +29,18 @@
     }
     .header__title{
         margin-bottom: 10px;
+        @include mediaSize(tablet){
+            margin-bottom: 20px;
+        }
+        @include mediaSize(desktop){
+            margin-bottom: 0;
+        }
     }
     .header__text{
         margin-bottom: 45px;
+        @include mediaSize(tablet){
+            margin-bottom: 30px;
+        }
     }
 }
 

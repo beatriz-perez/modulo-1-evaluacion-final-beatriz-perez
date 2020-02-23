@@ -5,17 +5,31 @@
 
 .container__section--main{
     width: 100%;
+    max-width: 730px;
+    @include centerHorizontal;
     padding-top: 30px;
     padding-bottom: 45px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    @include mediaSize(tablet){
+        padding-bottom: 60px;
+    }
+    @include mediaSize(desktop){
+        padding-top: 60px;
+    }
     .main__textLabel{
         margin-bottom: 1px;
+        @include mediaSize(tablet){
+            margin-bottom: 0;
+        }
     }
     .main__title{
         margin-bottom: 15px;
+        @include mediaSize(tablet){
+            margin-bottom: 30px;
+        }
     }
     .main__text{
         margin-bottom: 30px;

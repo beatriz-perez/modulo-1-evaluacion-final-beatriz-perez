@@ -11,19 +11,38 @@
     grid-template-columns: 1fr 184px 1fr;
     grid-template-rows: 30px 1fr 1fr 1fr 45px;
     grid-gap: 45px 0;
+    @include mediaSize(tablet){
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 45px 1fr 45px;
+        grid-gap: 45px 30px;
+    }
+    @include mediaSize(desktop){
+        padding-top: 60px;
+    }
     .aside__title{
-        width: 100%;
         grid-column: 1/4;
         grid-row: 1/2;
     }
     .aside__article{
-        width: 100%;
         grid-column: 2/3;
         grid-row: span 1;
+        @include mediaSize(tablet){
+            grid-column: span 1;
+            grid-row: 2/3;
+            &--title{
+                margin-bottom: 14px;
+            }
+            &--text{
+                margin-bottom: 15px;
+            }
+        }
     }
     .aside__button{
         grid-column: 1/4;
         grid-row: 5/6;
         @include centerHorizontal;
+        @include mediaSize(tablet){
+            grid-row: 3/4;
+        }
     }
 }

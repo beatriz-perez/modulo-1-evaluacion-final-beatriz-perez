@@ -3,4 +3,12 @@
     width: 100%;
     padding-left: 15px;
     padding-right: 15px;
+    @include mediaSize(tablet){
+        padding-left: 39px;
+        padding-right: 39px;
+    }
+    @include mediaSize(desktop){
+        padding-left: 85px;
+        padding-right: 85px;
+    } 
 }
