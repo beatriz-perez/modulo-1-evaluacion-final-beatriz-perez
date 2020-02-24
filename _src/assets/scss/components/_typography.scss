@@ -116,6 +116,29 @@
 }
 
 // MENU ITEMS STYLES
+.text__header--menu{
+    font-family: $fontBase;
+    color: $fontColorLight;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    text-transform: capitalize;
+    transition: color ease 1s;
+    &:hover{
+        color: #304268;
+    }
+    @include mediaSize(tablet){
+        font-size: 16px;
+        line-height: 16;
+    }
+    @include mediaSize(desktop){
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+}
+
 .text__footer--menu{
     font-family: $fontBase;
     color: $fontColorLight;

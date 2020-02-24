@@ -4,9 +4,11 @@ $colorThemeLight: #ffffff;
 $themeColor: #eff9ff;
 $darkThemeColor: #304268;
 
+$colorThemeSecondary: #f26002;
+
 // BUTTON COLORS
 
-$colorButton: #f26002;
+$colorButton:$colorThemeSecondary;
 $menuColor: #0271bc;
 $colorShadow: #BDC3C7;
 
