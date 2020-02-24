@@ -1,4 +1,4 @@
-.container__page--header{
+.container__page--hero{
     width: 100vw;
     height: 100vh;
     background-image: url(../images/cover.jpg);
@@ -6,7 +6,7 @@
     background-size: cover;
 }
 
-.container__section--header{
+.container__section--hero{
     width: 100%;
     max-width: 730px;
     @include centerHorizontal;
@@ -22,12 +22,7 @@
     @include mediaSize(desktop){
         padding-bottom: 13px;
     }
-    .navigation{
-        .menuIcon{
-            @include centerAll
-        }
-    }
-    .header__title{
+    .hero__title{
         margin-bottom: 10px;
         @include mediaSize(tablet){
             margin-bottom: 20px;
@@ -36,7 +31,7 @@
             margin-bottom: 0;
         }
     }
-    .header__text{
+    .hero__text{
         margin-bottom: 45px;
         @include mediaSize(tablet){
             margin-bottom: 30px;

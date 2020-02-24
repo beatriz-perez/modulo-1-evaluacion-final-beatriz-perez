@@ -6,6 +6,13 @@
     background-color: $menuColor;
     top: 0;
     left: 0;
+    transition: box-shadow ease 1s;
+    .menuIcon{
+        @include centerAll;
+    }    
+    &:hover{
+        box-shadow: 0px 0px 3px 3px $colorButton;
+    }
 }
 
 // BOTONES REDONDOS DE DESPLAZAMIENTO POR SECCIONES
@@ -15,6 +22,10 @@
     width: 45px;
     border-radius: 50%;
     background-color: $colorThemeLight;
+    transition: box-shadow ease 1s;
+    &:hover{
+        box-shadow: 0px 0px 3px 3px $colorButton;
+    }
     &--down{
         background-image: url(../images/ico-scroll-down.svg);
         background-repeat: no-repeat;
