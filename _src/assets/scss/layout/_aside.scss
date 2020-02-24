@@ -9,40 +9,50 @@
     padding-bottom: 60px;
     display: grid;
     grid-template-columns: 1fr 184px 1fr;
-    grid-template-rows: 30px 1fr 1fr 1fr 45px;
+    grid-template-rows: 30px 1fr 45px;
     grid-gap: 45px 0;
     @include mediaSize(tablet){
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 450px 1fr;
         grid-template-rows: 45px 1fr 45px;
-        grid-gap: 45px 30px;
     }
     @include mediaSize(desktop){
         padding-top: 60px;
+        grid-template-columns: 1fr 730px 1fr;
     }
     .aside__title{
         grid-column: 1/4;
         grid-row: 1/2;
+        @include centerHorizontal;
     }
-    .aside__article{
+    .aside__content{
         grid-column: 2/3;
-        grid-row: span 1;
-        @include mediaSize(tablet){
+        grid-row: 2/3;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-gap: 45px 0;
+        &Item{
             grid-column: span 1;
-            grid-row: 2/3;
-            &--title{
-                margin-bottom: 14px;
-            }
-            &--text{
-                margin-bottom: 15px;
-            }
+            grid-row: span 1;
+        }
+        @include mediaSize(tablet){
+            grid-column: 1/4;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr; 
+            grid-gap: 45px 30px;
+            .aside__article{
+                &--title{
+                    margin-bottom: 14px;
+                }
+                &--text{
+                    margin-bottom: 15px;
+                }
+            }  
         }
     }
     .aside__button{
         grid-column: 1/4;
-        grid-row: 5/6;
+        grid-row: 3/4;
         @include centerHorizontal;
-        @include mediaSize(tablet){
-            grid-row: 3/4;
-        }
     }
 }
