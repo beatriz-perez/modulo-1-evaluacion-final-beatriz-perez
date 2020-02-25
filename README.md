@@ -4,10 +4,18 @@
 Ejercicio en SASS de Beatriz Pérez para la evaluación final del módulo 1 de Adalab.
 
 Estructura de ramas del repositorio:
-    1. stable - última versión de código para producción. Se fusionarán los cambios desde master una vez ésta sea estable.
-    2. master - rama principal en que se fusionan los cambios realizados en las distintas ramas de desarrollo.
-    3. feat/accessibility - rama de desarrollo para características de accesibilidad. Los cambios se volcarán en master.
-    4. feat/hidden-header - rama de desarrollo para características del header. Los cambios se volcarán en master.
+
+1. stable - última versión de código para producción. Se fusionarán los cambios desde master una vez ésta sea estable.
+
+2. master - rama principal en que se fusionan los cambios realizados en las distintas ramas de desarrollo.
+
+3. feat/accessibility - rama de desarrollo para características de accesibilidad. Los cambios se volcarán en master.
+
+4. feat/hidden-header - rama de desarrollo para características del header. Los cambios se volcarán en master.
+
+5. feat/animation - rama de desarrollo para características de animaciones. Los cambios se volcarán en master.
+
+6. hotfix - rama para la corrección de errores sobre la rama principal master. Los cambios no se volcarán en ninguna otra rama hasta terminar la evaluación por completo.
 
 
 Definición del sistema de diseño:
